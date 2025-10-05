@@ -3,7 +3,7 @@
 // Centralized API configuration management
 export const API_CONFIG = {
   // Environment modes
-  MODE: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+  MODE:"production",
 
   
   // Demo mode flag - set to false for production/development, true for demo
